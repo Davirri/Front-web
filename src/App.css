@@ -188,6 +188,7 @@ h2 {
 
 .cart-item img {
   margin-right: 1rem;
+  border-radius: 5px;
 }
 
 .cart-item h3 {
@@ -578,6 +579,10 @@ button:hover {
 
 /*Media queries para los dispositivos móviles*/
 @media (max-width: 768px) {
+  .product-card {
+    width: 80%;
+  }
+
   .entrance-paragraph {
     font-size: medium;
     width: 80%;
@@ -590,7 +595,8 @@ button:hover {
   .news-paragraph {
     width: 100%;
   }
-/*Cambios para el menu hamburguesa*/
+
+  /*Cambios para el menu hamburguesa*/
   .navbar-list {
     display: none;
     flex-direction: column;
@@ -603,7 +609,8 @@ button:hover {
     background-image: url(https://i.pinimg.com/736x/f8/29/15/f829153622a635482ceac823072c8f68.jpg);
     width: 100%;
   }
-/*Cambios de imágenes para el efecto parrallax en móviles*/
+
+  /*Cambios de imágenes para el efecto parrallax en móviles*/
   .featured {
     background-image: url(https://i.pinimg.com/564x/69/5d/94/695d943388958684d7dc859e8227fb75.jpg);
   }
@@ -661,5 +668,10 @@ button:hover {
   .register-container,
   .add-product-form {
     width: 90%;
+  }
+
+  .cart-item {
+    display: flex;
+    flex-direction: column;
   }
 }

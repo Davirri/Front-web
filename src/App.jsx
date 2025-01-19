@@ -35,7 +35,7 @@ function App() {
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/Conditions" element={<Conditions />} />
-              <Route path="/merch" element={<Merch />} /> {/* Nueva ruta para Merch */}
+              <Route path="/merch" element={<Merch />} /> {/* Ruta para Merch */}
               {/* Ruta especial protegida para añadir productos o editarlos, solo accesible si se es administrador */}
               <Route
                 path="/add-product"

@@ -25,7 +25,7 @@ const Merch = () => {
 
   return (
     <div className='add-product'>
-      {user && <h3 className='Principal'>Hola, {user.name}!</h3>} {/* Aseguramos que user tenga una propiedad name */}
+      {user && <h3 className='Principal'>Hola, {user}!</h3>} {/* Aseguramos que user tenga una propiedad name */}
       <h2>Lista de Merch</h2>
       <ul className='product-list'>
         {merchItems.map((item) => (
